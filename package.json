@@ -1,0 +1,27 @@
+{
+  "name": "nesmes-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:debug": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "pending-repository"
+  },
+  "keywords": [
+    "telegram",
+    "bot"
+  ],
+  "author": "amadridlar",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.40.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
