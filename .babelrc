@@ -1,0 +1,14 @@
+{
+  "comments": false,
+  "presets": [
+    [
+      "minify",
+      {
+        "removeConsole": true
+      }
+    ]
+  ],
+  "plugins": [
+    "babel-plugin-rewire"
+  ]
+}
