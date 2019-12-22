@@ -1,10 +1,9 @@
 # CHANGELOG
 
-## 1.0.1
-_Released dec/22/2019_
+## 1.0.1 (2019/12/22)
 
-Fix:
-- Fix ```Dockerfile```
+__Bugfix:__
+- __```Dockerfile```:__ Remove ```npm start``` command on image build causes bot not starts correctly
 
 ## 1.0.0
 
