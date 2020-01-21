@@ -7,6 +7,6 @@ __Bugfix:__
 
 ## 1.0.0
 
-Features:
+__Features:__
 - Automatic answers to commands
 - Automatic answers to keywords
