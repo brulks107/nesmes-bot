@@ -8,4 +8,6 @@ COPY package-lock.json .
 
 RUN npm install --production
 
+RUN npm build
+
 COPY dist .
