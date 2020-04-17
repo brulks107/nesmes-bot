@@ -5,6 +5,7 @@ A Telegram bot
 ``` npm start```
 
 ### Start in production mode
+- Build dist with ```npm run build```
 - Build docker image from _Dockerfile_
 - Run docker container, passing _bot_token_
 
