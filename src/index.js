@@ -31,3 +31,37 @@ bot.onText(/\/honor/, (msg) => {
 
     bot.sendPhoto(msg.chat.id, tricornioURL, { caption: '\nMi principal divisa' });
 });
+
+bot.on('inline_query', (query) => {
+    const queryId = query.id;
+    const queryText = query.query;
+
+    bot.answerInlineQuery(queryId, [
+        {
+            type: 'location',
+            id: '456789645',
+            longitude: -5.850280,
+            latitude: 43.363286,
+            title: 'Oviedo',
+            input_message_content: {
+                title: 'Uvieu',
+                address: 'Calle tal 31, 1A',
+                longitude: -5.850280,
+                latitude: 43.363286,
+            }
+        },
+        {
+            type: 'location',
+            id: '987654312',
+            longitude: -2.644134,
+            latitude: 41.069038,
+            title: 'Sigüenza',
+            input_message_content: {
+                title: 'El pueblo',
+                address: 'Calle larga 28,4C',
+                longitude: -5.850280,
+                latitude: 43.363286,
+            }
+        },
+    ]);
+});
