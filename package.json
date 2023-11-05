@@ -19,7 +19,7 @@
   "author": "amadridlar",
   "license": "ISC",
   "dependencies": {
-    "node-telegram-bot-api": "^0.40.0"
+    "node-telegram-bot-api": "^0.64.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.5",
