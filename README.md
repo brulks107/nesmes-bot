@@ -1,12 +1,21 @@
 # Nesmes bot
 A Telegram bot
 
+## Get bot token
+Firt you need the bot token from _BotFather_
+
 ### Start in develop mode
-``` npm start```
+``` npm start <bot_token>```
 
-### Start in production mode
-- Build dist with ```npm run build```
-- Build docker image from _Dockerfile_
-- Run docker container, passing _bot_token_
+## Run the image
+### Download image
+Get nesmes-bot image from registry
+```shell
+docker pull ghcr.io/brulks107/nesmes-bot:<version>
+```
+### Run the image
+Run the image with the bot token
 
-```docker run -d <docker-image-name> node index <bot_token>```
+```shell
+docker run -d bghcr.io/brulks107/nesmes-bot:<version> node index <bot_token>
+```
