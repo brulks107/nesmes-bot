@@ -1,13 +1,12 @@
 {
   "name": "nesmes-bot",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Telegram bot",
   "main": "index.js",
   "scripts": {
     "build": "babel src --out-dir dist --delete-dir-on-start --copy-files",
     "start": "node src/index.js",
-    "start:debug": "nodemon src/index.js",
-    "test": "jest -c=jest.config.json"
+    "start:debug": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -27,7 +26,6 @@
     "@babel/core": "^7.7.5",
     "babel-plugin-rewire": "^1.2.0",
     "babel-preset-minify": "^0.5.1",
-    "jest": "^24.9.0",
     "nodemon": "^2.0.1"
   }
 }
